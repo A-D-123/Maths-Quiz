@@ -8,23 +8,23 @@
     "net5.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\20dovea23\\.nuget\\packages\\": {}
+    "C:\\Users\\Alex\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "P:\\Maths Quiz\\Maths Quiz\\Maths Quiz.csproj",
+      "projectUniqueName": "C:\\Users\\Alex\\source\\repos\\Maths Quiz\\Maths Quiz\\Maths Quiz.csproj",
       "projectName": "Maths Quiz",
-      "projectPath": "P:\\Maths Quiz\\Maths Quiz\\Maths Quiz.csproj",
-      "packagesPath": "C:\\Users\\20dovea23\\.nuget\\packages\\",
-      "outputPath": "P:\\Maths Quiz\\Maths Quiz\\obj\\",
+      "projectPath": "C:\\Users\\Alex\\source\\repos\\Maths Quiz\\Maths Quiz\\Maths Quiz.csproj",
+      "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alex\\source\\repos\\Maths Quiz\\Maths Quiz\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\ITAppData\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0-windows7.0"
+        "net5.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -40,6 +40,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -51,7 +56,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -63,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

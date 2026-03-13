@@ -16,3 +16,21 @@ P:\Maths Quiz\Maths Quiz\obj\Debug\net5.0-windows\Maths Quiz.dll
 P:\Maths Quiz\Maths Quiz\obj\Debug\net5.0-windows\ref\Maths Quiz.dll
 P:\Maths Quiz\Maths Quiz\obj\Debug\net5.0-windows\Maths Quiz.pdb
 P:\Maths Quiz\Maths Quiz\obj\Debug\net5.0-windows\Maths Quiz.genruntimeconfig.cache
+C:\Users\Alex\source\repos\Maths Quiz\Maths Quiz\bin\Debug\net5.0-windows\Maths Quiz.exe
+C:\Users\Alex\source\repos\Maths Quiz\Maths Quiz\bin\Debug\net5.0-windows\Maths Quiz.deps.json
+C:\Users\Alex\source\repos\Maths Quiz\Maths Quiz\bin\Debug\net5.0-windows\Maths Quiz.runtimeconfig.json
+C:\Users\Alex\source\repos\Maths Quiz\Maths Quiz\bin\Debug\net5.0-windows\Maths Quiz.runtimeconfig.dev.json
+C:\Users\Alex\source\repos\Maths Quiz\Maths Quiz\bin\Debug\net5.0-windows\Maths Quiz.dll
+C:\Users\Alex\source\repos\Maths Quiz\Maths Quiz\bin\Debug\net5.0-windows\Maths Quiz.pdb
+C:\Users\Alex\source\repos\Maths Quiz\Maths Quiz\obj\Debug\net5.0-windows\Maths Quiz.csproj.AssemblyReference.cache
+C:\Users\Alex\source\repos\Maths Quiz\Maths Quiz\obj\Debug\net5.0-windows\Maths_Quiz.Login_Form.resources
+C:\Users\Alex\source\repos\Maths Quiz\Maths Quiz\obj\Debug\net5.0-windows\Maths Quiz.csproj.GenerateResource.cache
+C:\Users\Alex\source\repos\Maths Quiz\Maths Quiz\obj\Debug\net5.0-windows\Maths Quiz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\source\repos\Maths Quiz\Maths Quiz\obj\Debug\net5.0-windows\Maths Quiz.AssemblyInfoInputs.cache
+C:\Users\Alex\source\repos\Maths Quiz\Maths Quiz\obj\Debug\net5.0-windows\Maths Quiz.AssemblyInfo.cs
+C:\Users\Alex\source\repos\Maths Quiz\Maths Quiz\obj\Debug\net5.0-windows\Maths Quiz.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\Maths Quiz\Maths Quiz\obj\Debug\net5.0-windows\Maths Quiz.dll
+C:\Users\Alex\source\repos\Maths Quiz\Maths Quiz\obj\Debug\net5.0-windows\refint\Maths Quiz.dll
+C:\Users\Alex\source\repos\Maths Quiz\Maths Quiz\obj\Debug\net5.0-windows\Maths Quiz.pdb
+C:\Users\Alex\source\repos\Maths Quiz\Maths Quiz\obj\Debug\net5.0-windows\Maths Quiz.genruntimeconfig.cache
+C:\Users\Alex\source\repos\Maths Quiz\Maths Quiz\obj\Debug\net5.0-windows\ref\Maths Quiz.dll
