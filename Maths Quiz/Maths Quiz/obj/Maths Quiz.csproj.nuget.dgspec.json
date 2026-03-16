@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alex\\source\\repos\\Maths Quiz\\Maths Quiz\\Maths Quiz.csproj": {}
+    "C:\\Users\\alexd\\source\\repos\\Maths Quiz\\Maths Quiz\\Maths Quiz.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alex\\source\\repos\\Maths Quiz\\Maths Quiz\\Maths Quiz.csproj": {
+    "C:\\Users\\alexd\\source\\repos\\Maths Quiz\\Maths Quiz\\Maths Quiz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alex\\source\\repos\\Maths Quiz\\Maths Quiz\\Maths Quiz.csproj",
+        "projectUniqueName": "C:\\Users\\alexd\\source\\repos\\Maths Quiz\\Maths Quiz\\Maths Quiz.csproj",
         "projectName": "Maths Quiz",
-        "projectPath": "C:\\Users\\Alex\\source\\repos\\Maths Quiz\\Maths Quiz\\Maths Quiz.csproj",
-        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alex\\source\\repos\\Maths Quiz\\Maths Quiz\\obj\\",
+        "projectPath": "C:\\Users\\alexd\\source\\repos\\Maths Quiz\\Maths Quiz\\Maths Quiz.csproj",
+        "packagesPath": "C:\\Users\\alexd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexd\\source\\repos\\Maths Quiz\\Maths Quiz\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alexd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,7 +39,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net5.0-windows7.0": {
@@ -63,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
