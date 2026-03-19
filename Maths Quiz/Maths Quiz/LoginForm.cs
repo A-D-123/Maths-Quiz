@@ -88,49 +88,44 @@ namespace Maths_Quiz
 
             if (login)
             {
-                if (File.Exists(file))
-                {
-                    string[] lines = File.ReadAllLines(file);
-                    bestScore = int.Parse(lines[1]);
-
-                    if (lines[0] == Encode(passwordBox.Text))
-                    {
-                        QuizForm quizForm = new QuizForm(bestScore);
-                        this.Hide();
-                        quizForm.Show();
-                    }
-                    else
-                    {
-                        MessageBox.Show("User not found");
-                    }
-                }
-                else
+                if (!File.Exists(file))
                 {
                     MessageBox.Show("User not found");
+                    return;
                 }
-            }
-            else
-            {
-                if (isPrintableAscii(usernameBox.Text))
-                {
-                    MessageBox.Show("Username invalid");
-                }
-                else if (isPrintableAscii(passwordBox.Text))
-                {
-                    MessageBox.Show("Password invalid");
-                }
-                else if (File.Exists(file))
-                {
-                    MessageBox.Show("This username is already taken");
-                }
-                else
-                {
-                    File.WriteAllText(file, Encode(passwordBox.Text) + "\n0");
+                string[] lines = File.ReadAllLines(file);
+                bestScore = int.Parse(lines[1]);
 
-                    usernameBox.Clear();
-                    passwordBox.Clear();
+                if (lines[0] != Encode(passwordBox.Text))
+                {
+                    MessageBox.Show("Password Incorrect");
+                    return;
                 }
+                QuizForm quizForm = new QuizForm(bestScore);
+                this.Hide();
+                quizForm.Show();
+                return;
             }
+            if (!IsValidInput(usernameBox.Text))
+            {
+                MessageBox.Show("Username invalid");
+                return;
+            }
+            if (!IsValidInput(passwordBox.Text))
+            {
+                MessageBox.Show("Password invalid");
+                return;
+            }
+            if (File.Exists(file))
+            {
+                MessageBox.Show("This username is already taken");
+                return;
+            }
+
+            File.WriteAllText(file, Encode(passwordBox.Text) + "\n0");
+
+            usernameBox.Clear();
+            passwordBox.Clear();
         }
         void ShowPasswordButton_Click(object sender, EventArgs e)
         {
@@ -142,16 +137,17 @@ namespace Maths_Quiz
             else loginSignupSwitch.Text = "Switch to Sign Up";
             login = !login;
         }
-        static bool isPrintableAscii(string str)
+        static bool IsValidInput(string str)
         {
-            return !str.All(c => c >= 33 && c <= 126);
+            if (str.Length > 16) return false;
+            return str.All(c => char.IsLetterOrDigit(c) || c == '_');
         }
         static string Encode(string str)
         {
             const int key = 10;
             string encStr = "";
 
-            foreach (char c in str) 
+            foreach (char c in str)
                 encStr += (char)(32 + (c - 32 + key) % 95);
             return encStr;
         }
